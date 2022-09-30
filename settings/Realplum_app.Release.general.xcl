@@ -1,0 +1,13 @@
+"D:\soft\IAR\installWorkSpace\arm\bin\armproc.dll" 
+
+"D:\soft\IAR\installWorkSpace\arm\bin\armjlink2.dll" 
+
+"D:\myWorkSpace\program\IAR\libdev.realplum.B1.03.01_lin_1.6_colorlib_2.0.1\libdev.realplum.B1.03.01_lin_1.6_colorlib_2.0.1\Release\Exe\Realplum_app.out" 
+
+--plugin="D:\soft\IAR\installWorkSpace\arm\bin\armbat.dll" 
+
+--flash_loader="D:\soft\IAR\installWorkSpace\arm\config\flashloader\IndieSemi\FlashLoader_Realplum.board" 
+
+
+
+

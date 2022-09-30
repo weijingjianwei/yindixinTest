@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <JLinkDriver>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </JLinkDriver>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <DebugChecksum>
+        <Checksum>3432120348</Checksum>
+    </DebugChecksum>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <struct_types>
+        <Fmt0>CommLedParamInfo_t-command	4	0</Fmt0>
+        <Fmt1>ReadByIdReq_t-functionID	4	0</Fmt1>
+        <Fmt2>ReadByIdReq_t-supplierID	4	0</Fmt2>
+    </struct_types>
+    <array_types>
+        <Fmt0>int8_t[3]	3	0</Fmt0>
+    </array_types>
+    <watch_formats>
+        <Fmt0>{W}1:Ag	4	0</Fmt0>
+        <Fmt1>{W}1:Ar	4	0</Fmt1>
+        <Fmt2>{W}1:Bg	4	0</Fmt2>
+        <Fmt3>{W}1:Br	4	0</Fmt3>
+        <Fmt4>{W}1:Csum	4	0</Fmt4>
+        <Fmt5>{W}1:Csum_int	4	0</Fmt5>
+        <Fmt6>{W}1:N_Cr_Count	3	0</Fmt6>
+        <Fmt7>{W}1:Rb	4	0</Fmt7>
+        <Fmt8>{W}1:Rg	4	0</Fmt8>
+        <Fmt9>{W}1:Rr	4	0</Fmt9>
+        <Fmt10>{W}1:SumXYZ	4	0</Fmt10>
+        <Fmt11>{W}1:crcValue	4	0</Fmt11>
+        <Fmt12>{W}1:currTemperature	3	0</Fmt12>
+        <Fmt13>{W}1:scaleRate	3	0</Fmt13>
+        <Fmt14>{W}1:scaleRateAg	3	0</Fmt14>
+        <Fmt15>{W}1:scaleRateAr	3	0</Fmt15>
+        <Fmt16>{W}1:scaleRateBg	3	0</Fmt16>
+        <Fmt17>{W}1:scaleRateBr	3	0</Fmt17>
+        <Fmt18>{W}1:tableIndex	3	0</Fmt18>
+    </watch_formats>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "D:\Project\General\realplum\SDK\Project\libdev.realplum.B0.00.00.00.0001_Release\drivers\core\src\cstartup_M.c" ""</A0>
+        <A1>_ "D:\Project\General\realplum\SDK\Project\libdev.realplum.B0.00.00.00.0001_Release\drivers\core\src\low_level_init.c" ""</A1>
+        <A2>_ "D:\Project\General\realplum\SDK\Project\libdev.realplum.B0.00.00.00.0001_Release\drivers\hal\src\clock_device.c" ""</A2>
+        <A3>_ "D:\Project\General\realplum\SDK\Project\libdev.realplum.B0.00.00.00.0001_Release\drivers\hal\src\systick_device.c" ""</A3>
+        <A4>_ "D:\Project\General\realplum\SDK\Project\libdev.realplum.B0.00.00.00.0001_Release\drivers\hal\src\timer_device.c" ""</A4>
+        <A5>_ "D:\Project\General\realplum\SDK\Project\libdev.realplum.B0.00.00.00.0001_Release\drivers\hal\src\wdt_device.c" ""</A5>
+        <A6>_ "D:\Project\General\realplum\SDK\Project\libdev.realplum.B0.00.00.00.0001_Release\function_blocks\colormixingtask\colorFormula.c" ""</A6>
+        <A7>_ "D:\Project\General\realplum\SDK\Project\libdev.realplum.B0.00.00.00.0001_Release\usr\main.c" ""</A7>
+        <Count>8</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+</settings>

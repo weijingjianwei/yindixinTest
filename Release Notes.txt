@@ -1,0 +1,49 @@
+Release Notes
+=============
+Realplum SDK
+Date : January, 2020
+
+III. Revision History
+===================
+The list is not complete and covers only major additions and fixes comparing to the previous release.
+Realplum SDK v2.0.0.0 2021-03-09	
+** Major improvements and bug fixes
+    * [RPSDK-BG-0010] - fixed int8_t CFL_SetLedPNVolts() function issue when temperature is not 24C
+Realplum SDK v1.9.0.0 2020-09-16	
+** Major improvements and bug fixes
+    * [RPSDK-BG-0008] - fixed flash write issue:Flash_devCopyToFlash
+    * [RPSDK-BG-0009] - fixed HardFault_Handler for manufacturing programming issue.
+Realplum SDK v1.6.0.0 2020-06-30	
+** Major improvements and bug fixes
+    * [RPSDK-BG-0007] - fixed color mixing calculate error: RGBL calculate error when LED R(x,y) x+y > 1 when Send R= 255,G = 0, B = 0..
+Realplum SDK v1.5.0.0 2020-06-06
+** Major new features
+    * [RPSDK_NF-0004] - [VERSION] Add LIN Auto Addrssing support
+** Major improvements and bug fixes
+   * [RPSDK-BG-0006]: fixed LED display failed after sleep.
+Realplum SDK v1.4.0.0 2020-05-26
+** Major improvements and bug fixes
+     * [RPSDK-BG-0005]: fixed Multi-PDU response data length is different from real sent.
+Realplum SDK v1.3.0.1 2020-05-09
+** Major improvements and bug fixes
+    * [RPSDK-BG-0004]: fixed PDS no init bug.
+Realplum SDK v1.3.0.0 2020-05-09
+** Major new features
+    * [RPSDK_NF-0003] - [VERSION] Add LIN bootloader support
+** Major improvements and bug fixes
+    none
+Realplum SDK v1.1.0.0 2020-05-09
+** Major new features
+    * [RPSDK_NF-0002] - [VERSION] Add LIN Slave Stack version control
+** Major improvements and bug fixes
+    * [RPSDK-BG-0003] - fix bug: LIN stack may cause collission  when there is no user frames defined in frame table.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Realplum SDK v1.0.0.0 2020-03-20
+** Major new features
+    * [RPSDK_NF-0001] - [VERSION] Add LIN Slave Stack support
+
+** Major improvements and bug fixes
+    * [RPSDK-BG-0001] - improve white point color calibration steps
+    * [RPSDK-BG-0002] - improve AccurateXYY,AccurateRGBL,AccurateUVL iRatio init value for better understanding of iRatio parameters.
+
+
